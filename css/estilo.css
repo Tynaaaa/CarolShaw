@@ -1,0 +1,186 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 1em;
+	background-color: #F8F8FF;
+}
+
+#area-cabecalho{
+	background-color: #D0A5AE;
+	padding: 1px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#cor-logo{
+	color: #828DA5;
+}
+
+h1{
+	color: #828DA5;
+	text-align: center;
+}
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#area-cabecalho a:link, #area-logo a:visited{
+	color: #fff;
+	padding: 8px 12px;
+	font-family: Times New Roman;
+}
+
+#area-cabecalho a:hover{
+	color: #D0A5AE;
+	background: #828DA5;
+	text-decoration: underline;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+#area-postagem{
+	width: 1000px;
+	align-items: justify;
+	background: #DFBAC1;
+}
+
+.postagem{
+padding: 20px;
+margin-bottom: 20px;
+background: #DFBAC1;	
+}
+
+#area-rodape{
+	background-color: #828DA5;
+	font-family: Times New Roman;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+
+.button{
+	background-color: #828DA5;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#menu {
+    width: 30%;
+    margin: 0; padding: 0;
+    float: right;
+    padding-left: 7px;
+    }
+
+ #menu ul li {
+    margin: 0; 
+    padding: 0px;
+    border-bottom: 1px solid black;
+    text-align: left;
+    list-style-type: none;
+    }
+
+ul li{
+	float: justify;
+}
+
+  #menu a:link {
+    background: #D6D6D6;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    }
+
+ #menu a:hover {
+    background: #A99096;
+    color: white;
+    }
+
+.imagem{
+  float: left;
+  padding-right: 5px;
+}
+
+
+.banner{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto; 
+  animation: slides 10s infinite;
+  float: center;
+}
+
+@keyframes slides {
+  0%, 30% {
+    background-image: url(../imagens/transicao1.jpg);
+    background-repeat: no-repeat;
+    background-size: center;
+  }
+
+  35%, 65% { background-image: url(../imagens/transicao5.jpg) ;
+  background-repeat: no-repeat;
+  background-size: center;
+  }
+
+ 70%, 100% { 
+  background-image: url(../imagens/transicao3.jpg);
+  background-repeat: no-repeat;
+  background-size: center;}
+
+}
+
+.img1{
+	float: left;
+	padding-right: 5px;
+
+}
+
+.img2, .img3{
+	float: right;
+}
+
+.titulo, .titulo1{
+	font-size: 27px;
+	padding-bottom: 3px;
+	color: #828DA5;
+}
+
+.img3{
+	padding-left: 5px;
+}
+
+h2{
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+.texto{
+	text-align: justify;
+	padding-top: 20px;
+}
+
+p{
+	color: white;
+}
